@@ -13,6 +13,7 @@
 		036EB2CE1CA273E700A034EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036EB2CC1CA273E700A034EA /* Main.storyboard */; };
 		036EB2D01CA273E700A034EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036EB2CF1CA273E700A034EA /* Assets.xcassets */; };
 		036EB2D31CA273E700A034EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036EB2D11CA273E700A034EA /* LaunchScreen.storyboard */; };
+		036EB2DF1CA2896000A034EA /* OLAttriLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 036EB2DE1CA2896000A034EA /* OLAttriLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		036EB2CF1CA273E700A034EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		036EB2D21CA273E700A034EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		036EB2D41CA273E700A034EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036EB2DD1CA2896000A034EA /* OLAttriLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLAttriLabel.h; sourceTree = "<group>"; };
+		036EB2DE1CA2896000A034EA /* OLAttriLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLAttriLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		036EB2B71CA273E700A034EA = {
 			isa = PBXGroup;
 			children = (
+				036EB2DC1CA2744B00A034EA /* OLAttriLabel */,
 				036EB2C21CA273E700A034EA /* OLAttriLabelDemo */,
 				036EB2C11CA273E700A034EA /* Products */,
 			);
@@ -77,6 +81,15 @@
 				036EB2C41CA273E700A034EA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		036EB2DC1CA2744B00A034EA /* OLAttriLabel */ = {
+			isa = PBXGroup;
+			children = (
+				036EB2DD1CA2896000A034EA /* OLAttriLabel.h */,
+				036EB2DE1CA2896000A034EA /* OLAttriLabel.m */,
+			);
+			name = OLAttriLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036EB2DF1CA2896000A034EA /* OLAttriLabel.m in Sources */,
 				036EB2CB1CA273E700A034EA /* ViewController.m in Sources */,
 				036EB2C81CA273E700A034EA /* AppDelegate.m in Sources */,
 				036EB2C51CA273E700A034EA /* main.m in Sources */,
@@ -298,6 +312,7 @@
 				036EB2D91CA273E700A034EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
